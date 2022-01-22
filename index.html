@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Mi primera página web!</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Fjalla+One|Lobster&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+
+  <body>
+    <header>
+      <!-- Menu -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">LOGO</a>
+        <ul class="nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="/">Inicio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#mapa">Ubicación</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#stripe">Menú</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="Acercade.html">Acerca de </a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Portada -->
+      <div
+        class="cover d-flex justify-content-center align-items-center flex-column"
+      >
+        <h1>
+          Favicoffe
+        </h1>
+        <p>
+          Lo mejor en café
+        </p>
+        <button class="btn btn-primary">
+          Conoce más
+        </button>
+      </div>
+    </header>
+
+    <!-- Tarjetas -->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row justify-content-center">
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Frsz_bbh-singapore-d2hs0grfcpq-unsplash.jpg?v=1577730709256)"
+                title="personas recogiendo cosechas"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Cultivo ecológico</h5>
+                <p class="card-text">
+                  Trabajamos con agricultores responsables
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Frsz_johny-goerend-xasm1r157vi-unsplash.jpg?v=1577734840844)"
+                title="Vista aerea de dos tractores sobre un campo"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Comercio Justo</h5>
+                <p class="card-text">
+                  Precio Justo y razonable
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Frsz_mike-kenneally-zlwdjoktua8-unsplash.jpg?v=1577734056474)"
+                title="Taza con granos de cafe aun lado"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Pasión por el café</h5>
+                <p class="card-text">
+                  Amamos el café y ofrecemos amor en cada taza
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Formulario -->
+    <section>
+      <div class="container mt-5 mb-5">
+        <div class="row">
+          <div class="col-12 col-sm-6 col-lg-5">
+            <img
+              src="https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2FCoffeeDoddle.svg?v=1577761258626"
+              alt="Una persona abrazando una taza de café"
+            />
+          </div>
+
+          <div class="col-12 col-sm-6">
+            <h3>
+              !Inicia tu día con una tasa de café!!
+            </h3>
+            <p>
+              Pidelo a domicilio o busca el Favicoffe mas cercano
+            </p>
+            <a href="#mapa">
+              Ir al mapa
+            </a>
+          </div>
+        </div>
+
+        <form action="">
+          <label for="email">Correo eléctronico</label>
+          <div class="d-flex ">
+            <div class="flex-fill mr-2">
+              <input type="email" id="email" class="form-control" />
+            </div>
+            <button type="submit" calss="btn btn-primary">
+              Enviar
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Tira de productos-->
+    <section>
+      <div class="container mt-5 mb-5" id="stripe">
+        <div class="product-stripe">
+          <div class="stripe-container">
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Fnathan-dumlao-ikU3J1nr52w-unsplash.jpg?v=1577763187662)"
+                title="4 tazas de cafe latte con figuras en su espuma"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Latte Art</h5>
+                <span class="badge badge-info">$2 USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Fnathan-dumlao-pnmRtTHWqDM-unsplash.jpg?v=1577763187691)"
+                title="3 vasos pequeños de café"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Con Leche</h5>
+                <span class="badge badge-info">$1.5 USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Fdemi-deherrera-L-sm1B4L1Ns-unsplash.jpg?v=1577763186992)"
+                title="un vaso con café helado"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Helado</h5>
+                <span class="badge badge-info">$2 USD</span>
+              </div>
+            </div>
+            <div class="card">
+              <div
+                class="cover cover-small"
+                style="background-image:url(https://cdn.glitch.com/a4e98025-7f97-4158-b997-6e50cfeb7977%2Fdevin-avery-5iRgh_G0eRY-unsplash.jpg?v=1577763187183)"
+                title="sirviendo una taza de café express"
+              ></div>
+              <div class="card-body">
+                <h5 class="card-title">Expréss</h5>
+                <span class="badge badge-info">$1 USD</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mapa -->
+    <section>
+      <div class="container mt-5 mb-5" id="mapa">
+        <h4>
+          Aquí nos vemos!
+        </h4>
+        <p>
+          Instituto Tecnológico de León Industrial Julian de Obregon, 37290
+          León, Gto.
+        </p>
+        <div class="responsive-iframe">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3722.0830577098054!2d-101.63024308529138!3d21.10925458595482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842bbe655bcb9623%3A0xe02cfc2f13daa3de!2sInstituto%20Tecnol%C3%B3gico%20de%20Le%C3%B3n!5e0!3m2!1ses!2smx!4v1577765491833!5m2!1ses!2smx"
+            width="600"
+            height="450"
+            frameborder="0"
+            style="border:0;"
+            allowfullscreen=""
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
